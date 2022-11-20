@@ -1,0 +1,9 @@
+netcdf landsea-access-ems {
+dimensions:
+	nlon = 192 ;
+	nlat = 112 ;
+variables:
+	float lon(nlon) ;
+	float lat(nlat) ;
+	float landsea(nlat, nlon) ;
+}
